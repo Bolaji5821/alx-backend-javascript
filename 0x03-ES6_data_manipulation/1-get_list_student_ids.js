@@ -8,9 +8,9 @@
  * @author Oyedele Bolaji <https://github.com/Bolaji5821>
  * @returns
  */
-export default function getListStudentIds(arr) {
-  if (arr instanceOf Array) {
-    return arr.map((arr) => arr.id);
+export default function getListStudentIds(students) {
+  if (students instanceof Array) {
+    return students.map((student) => student.id);
   }
   return [];
 }
